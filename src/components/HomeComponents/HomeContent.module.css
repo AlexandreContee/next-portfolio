@@ -1,0 +1,29 @@
+@keyframes changeBgColor {
+  0% {
+      background: #c05151;
+  }
+  50% {
+      background: #51aa53;
+  }
+  100% {
+      background: #527acc;
+  }
+}
+
+div.info {
+  padding-top: 2rem;
+  text-align: center;
+  animation: changeBgColor 10s alternate infinite;
+}
+
+div.info h1 {
+  padding-bottom: 5px;
+}
+
+div.info span {
+  display: block;
+}
+
+#img {
+  border-radius: 50%;
+}

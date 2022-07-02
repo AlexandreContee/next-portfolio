@@ -1,0 +1,13 @@
+div.skills {
+  text-align: center;
+  padding-top: 2rem;
+  background-color: #2b5d96;
+  color: #fff;
+}
+
+ul.skillslist {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}

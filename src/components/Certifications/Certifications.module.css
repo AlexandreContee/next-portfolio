@@ -1,0 +1,13 @@
+div.certification {
+  padding-top: 1rem;
+  text-align: center;
+  background-color: #163163;
+  color: #fff;
+}
+
+div.certification ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  flex-wrap: wrap;
+}

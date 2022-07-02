@@ -1,0 +1,6 @@
+li.link:hover,
+li.link:active,
+li.link:focus {
+  transition: color 350ms;
+  color: #7cbbff;
+}

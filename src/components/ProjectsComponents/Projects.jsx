@@ -1,12 +1,14 @@
 import ProjectsUl from "./ProjectsUl"
 
-const ProjectsSummary = () => {
+import styles from "./Projects.module.css"
+
+const Projects = () => {
   return (
-    <div>
-      <h2>Projects</h2>
+    <div className={styles.projects}>
+      <h2>Personal Projects</h2>
       <ProjectsUl />
     </div>
   )
 }
 
-export default ProjectsSummary
+export default Projects

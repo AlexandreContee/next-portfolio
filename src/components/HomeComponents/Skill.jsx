@@ -1,12 +1,12 @@
 import Image from "next/image"
+import styles from "./Skill.module.css"
 
 const Skill = ({ name, src, alt }) => {
-
   return (
-  <>
+  <li className={styles.skills}>
     <Image width={50} height={50} src={src} alt={alt} />
-    <li>{name}</li>
-  </>
+    <p>{name}</p>
+  </li>
   )
 }
 

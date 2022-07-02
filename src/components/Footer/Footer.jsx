@@ -1,9 +1,10 @@
 import Contacts from "./Contacts"
 
-const Footer = () => {
+import styles from "./Footer.module.css"
 
+const Footer = () => {
   return (
-    <div>
+    <div className={styles.footer}>
       <h2>Contact Me</h2>
       <ul>
         <Contacts />

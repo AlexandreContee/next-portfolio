@@ -10,20 +10,25 @@ import angular from "../../../public/images/skills/angular.svg"
 import reactjs from "../../../public/images/skills/reactjs.svg"
 import nextjs from "../../../public/images/skills/nextjs.png"
 
+import styles from "./Skills.module.css"
+
 const Skills = () => {
   return (
-    <ul>
-      <Skill name="Java" src={java} alt="Java" />
-      <Skill name="Python" src={python} alt="" />
-      <Skill name="HTML5" src={html5} alt="" />
-      <Skill name="CSS3" src={css3} alt="" />
-      <Skill name="JavaScript" src={javascript} alt="" />
-      <Skill name="TypeScript" src={typescript} alt="" />
-      <Skill name="ReactJs" src={reactjs} alt="" />
-      <Skill name="ReactNative" src={reactjs} alt="" />
-      <Skill name="Next.Js" src={nextjs} alt="" />
-      <Skill name="Angular" src={angular} alt="" />
-    </ul>
+    <div className={styles.skills}>
+      <h2>Skills</h2>
+      <ul className={styles.skillslist}>
+        <Skill name="Java" src={java} alt="Java" />
+        <Skill name="Python" src={python} alt="" />
+        <Skill name="HTML5" src={html5} alt="" />
+        <Skill name="CSS3" src={css3} alt="" />
+        <Skill name="JavaScript" src={javascript} alt="" />
+        <Skill name="TypeScript" src={typescript} alt="" />
+        <Skill name="ReactJs" src={reactjs} alt="" />
+        <Skill name="ReactNative" src={reactjs} alt="" />
+        <Skill name="Next.Js" src={nextjs} alt="" />
+        <Skill name="Angular" src={angular} alt="" />
+      </ul>
+    </div>
   )
 }
 

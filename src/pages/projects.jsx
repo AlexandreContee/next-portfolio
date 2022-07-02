@@ -1,12 +1,10 @@
 import Head from 'next/head'
-
-import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
 import HomeContent from '../components/HomeComponents/HomeContent'
-import Certifications from '../components/Certifications/Certifications'
+import Header from '../components/Header/Header'
+import Projects from '../components/ProjectsComponents/Projects'
 
-const certifications = () => {
-
+const projects = () => {
   return (
     <div>
       <Head>
@@ -19,7 +17,7 @@ const certifications = () => {
       </header>
       <main>
         <HomeContent />
-        <Certifications />
+        <Projects />
       </main>
       <footer>
         <Footer />
@@ -28,4 +26,4 @@ const certifications = () => {
   )
 }
 
-export default certifications
+export default projects

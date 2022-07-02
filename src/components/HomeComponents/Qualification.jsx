@@ -1,7 +1,8 @@
+import styles from "./Qualification.module.css"
 
 const QualificationSummary = () => {
   return(
-    <div>
+    <div className={styles.qualification}>
       <h2>Qualification</h2>
       <h3>SENAC - Technology in System Analysis</h3>
     </div>
