@@ -18,6 +18,7 @@ import front from "../../../public/images/certifications/frontend.jpg"
 import jsFundamentals from "../../../public/images/certifications/js-fundamentals.jpg"
 import vscode from "../../../public/images/certifications/vscode.jpg"
 import fsite from "../../../public/images/certifications/fsite.jpg"
+import git from "../../../public/images/certifications/git.jpg"
 
 import styles from "./Certifications.module.css"
 
@@ -44,6 +45,7 @@ const Certifications = () => {
         <CertificationItem href="https://assets.staart.com/app/_k/33f218a3-34e3-4257-9b3c-eab56572d2e5/2b7e134e-87c3-40fb-885e-2fd438c9d4ea-496ce1bb-9dfc-48fa-91d7-db6bb375584b.pdf" src={jsFundamentals} alt="JavaScript Fundamentals" description="JavaScript Fundamentals" />
         <CertificationItem href="https://assets.staart.com/app/_k/33f218a3-34e3-4257-9b3c-eab56572d2e5/1a99deef-b707-4431-ae13-22a82c9b94eb-496ce1bb-9dfc-48fa-91d7-db6bb375584b.pdf" src={vscode} alt="vs-code environment" description="Visual Studio Code Environment" />
         <CertificationItem href="https://assets.staart.com/app/_k/33f218a3-34e3-4257-9b3c-eab56572d2e5/4ffd086c-868f-44d1-9f7f-3adf8d7edcc4-496ce1bb-9dfc-48fa-91d7-db6bb375584b.pdf" src={fsite} alt="Building the first HTML and CSS website" description="HTML and CSS" />
+        <CertificationItem href="https://assets.staart.com/app/_k/33f218a3-34e3-4257-9b3c-eab56572d2e5/5286cb1e-96d7-4504-a66b-430262244dc8-496ce1bb-9dfc-48fa-91d7-db6bb375584b.pdf" src={git} alt="Git and GitHub" description="Git and Github" />
       </ul>
     </div>
   )
