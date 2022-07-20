@@ -20,6 +20,7 @@ import vscode from "../../../public/images/certifications/vscode.jpg"
 import fsite from "../../../public/images/certifications/fsite.jpg"
 import git from "../../../public/images/certifications/git.jpg"
 import webtools from "../../../public/images/certifications/webtools.jpg"
+import reactStaart from "../../../public/images/certifications/react-staart.jpg"
 
 import styles from "./Certifications.module.css"
 
@@ -48,6 +49,7 @@ const Certifications = () => {
         <CertificationItem href="https://assets.staart.com/app/_k/33f218a3-34e3-4257-9b3c-eab56572d2e5/4ffd086c-868f-44d1-9f7f-3adf8d7edcc4-496ce1bb-9dfc-48fa-91d7-db6bb375584b.pdf" src={fsite} alt="Building the first HTML and CSS website" description="HTML and CSS" />
         <CertificationItem href="https://assets.staart.com/app/_k/33f218a3-34e3-4257-9b3c-eab56572d2e5/5286cb1e-96d7-4504-a66b-430262244dc8-496ce1bb-9dfc-48fa-91d7-db6bb375584b.pdf" src={git} alt="Git and GitHub" description="Git and Github" />
         <CertificationItem href="https://assets.staart.com/app/_k/33f218a3-34e3-4257-9b3c-eab56572d2e5/ede24be4-c7f7-4190-b13a-1c178b4849c0-496ce1bb-9dfc-48fa-91d7-db6bb375584b.pdf" src={webtools} alt="Web tools" description="JavaScript web tools" />
+        <CertificationItem href="https://assets.staart.com/app/_k/33f218a3-34e3-4257-9b3c-eab56572d2e5/afc1ef67-d0fa-4f96-824d-3dd90eab1c12-496ce1bb-9dfc-48fa-91d7-db6bb375584b.pdf" src={reactStaart} alt="Staart React certification" description="React certification" />
       </ul>
     </div>
   )
